@@ -141,8 +141,24 @@ body {
     margin-bottom: 3%;
 }
 @media (max-width: 640px) {
+    .block-top {
+        height: auto;
+    }
     .company-brainer {
-        top: 10px;
+        position: relative;
+        margin: 250px auto 100px;
+    }
+    .tagline {
+        position: static;
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+    .clients-block ul li {
+        width: 130px;
+        margin: 0 1% 8%;
+    }
+    .footer-block {
+        font-size: 20px;
     }
 }
 
