@@ -163,5 +163,33 @@ body {
 }
 
 @media (max-width: 480px) {
-
+    .company-brainer {
+        display: block;
+        width: 180px;
+        font-size: 38px;
+        letter-spacing: 3px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .logo-brainer {
+        width: 140px;
+        height: 177px;
+        top: -177px;
+        left: 87px;
+    }
+    .description-brainer {
+        font-size: 16px;
+        line-height: 16px;
+        top: 50px;
+        left: 87px;
+    }
+    .tagline {
+        font-size: 24px;
+    }
+    .questions {
+        font-size: 18px;
+    }
+    .title {
+        font-size: 38px;
+    }
 }
